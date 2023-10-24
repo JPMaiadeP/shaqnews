@@ -1,0 +1,145 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgrey;
+    max-width: 100%;
+    margin: auto;
+}
+
+.interface {
+    max-width: 90%;
+    margin: auto;
+}
+
+
+h1{
+    margin-left: 40px;
+    max-width: 20%;
+}
+
+aside {
+    background-color: darkgrey;
+    border: solid;
+    padding: 10px;
+    display: block;
+    float: right;
+    max-width: 20%;
+    margin: auto;
+    margin-right: 40px;
+    margin-top: 80px;
+}
+
+button#btn1 {
+    padding: 0px 8px;
+}
+
+button#btn3 {
+    padding: 0px 45px;
+}
+
+button#btn4 {
+    padding: 0px 27px;
+}
+
+.textoMenu {
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.box-noticia {
+    max-width: 70%;
+    display: block;
+    float: left;
+    border-style: solid;
+    border-width: 2px; 
+    margin: auto;
+    margin: 20px 0px;
+    margin-left: 30px;
+    overflow: auto;
+    color: dimgray;
+    background-color: snow;
+    padding: 5px;
+    padding-left: 10px;
+}
+
+.box-noticia img {
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+    width: 200px;
+    max-width: 200px;
+}
+
+.box-noticia .titulo {
+    font-weight: 700;
+}
+
+.box-noticia .creditos {
+    color: red
+}
+
+
+
+main{
+    padding-top: 20px;
+}
+
+.navbar {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.navbar2 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+ }
+
+.logo {
+    max-width: 200px;
+}
+.header {
+    max-width: 100%;
+    margin-bottom: 20px;
+    background-image: url(imgs/gamebanner.jpg);
+    background-size: cover;
+    background-position: 0px -20px;
+    background-repeat: no-repeat;
+}
+
+.footer {
+    clear: both;
+    max-width: 100%;
+    background-image: url(imgs/gamebanner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+
+
+
+
+/* Queries */
+
+@media screen and (max-width: 776px) { 
+    aside{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+@media screen and (min-width: 1200px) {
+
+}

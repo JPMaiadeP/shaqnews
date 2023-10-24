@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/c26fae5e72.js" crossorigin="anonymous"></script>
+        <title>Shaqnews</title>
+        
+    </head>
+
+
+    <body>
+      
+        <header class="container header">
+          <div class="row">
+            <div class="col 12 login">
+              <ul class="nav nav-pills float-right">
+                  <li class="nav-item">
+                    <a class="nav-link active bg-light text-dark" href="#">Registro</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active bg-light text-dark" href="#">Login</a>
+                  </li>
+                </ul>
+            </div>
+          </div>
+            
+            <div class="col 12 text-center">
+                <img src="Imgs/gamelogo2f.png" class="logo text-center">
+            </div>
+            <div class="row">
+                <div class="col 12 headerbot">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+                        <a class="navbar-brand" href="#">Home</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                          <span class="navbar-toggler-icon"></span>
+                        </button>
+                      
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                          <ul class="navbar-nav mr-auto">
+                            <li class="nav-item active">
+                              <a class="nav-link" id="headbtn1" href="#">Google News BR<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" id="headbtn2" href="#">Blasting News BR</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" id="headbtn3" href="#">Globo</a>
+                              </li>
+                            <li class="nav-item">
+                               <a class="nav-link" id="headbtn4" href="#">Info Money</a>
+                             </li>
+                              <li class="nav-item">
+                                <a class="nav-link" href="#">Contato</a>
+                            </li>
+                          </ul>
+                          
+                        </div>
+                      </nav>
+                </div>
+            </div>
+        </header>
+
+
+          <!--Div NewsAPI start-->
+          
+              <div class="interface">
+                <aside>
+                  <div class="menuLateral">
+                    <p class="textoMenu">Fontes</p>
+                    <input type="text" placeholder="Busca" id="txtPesquisa">
+                    <button id="btnPesquisa">Pesquisar</button><br>
+                    <button id="btn1">Google News Br</button><br>
+                    <button id="btn2">Blasting News Br</button><br>
+                    <button id="btn3">Globo</button><br>
+                    <button id="btn4">Info Money</button><br>
+                  </div>
+                </aside>
+                <div class="paiTela">
+                    <h1>Notícias</h1>
+                    <div id="tela">
+                      <div class="box-noticia">
+                          <img src="https://source.unsplash.com/random/120x80" alt="">
+                          <span class="titulo"></span><br>
+                          <span class="creditos">ABRIR PELO LIVE SERVER DO VS CODE E INSERIR localhost:5500 NO ENDEREÇO DO NAVEGADOR</span><br>
+                          <span class="text">
+                            <br><a href="#">Leia mais...</a>
+                          </span>
+                      </div>
+                    </div>
+                  
+                </div>
+              </div>
+            
+            
+
+          <!--Div NewsAPI end-->
+
+        <footer class="container footer">
+          <!-- Footer -->
+          <footer class="page-footer font-small mdb-color pt-4">
+
+            <!-- Footer Links -->
+            <div class="container text-center text-md-left">
+
+              <!-- Footer links -->
+              <div class="row text-center text-md-left mt-3 pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Shaqnews</h6>
+                  <p>Informações e notícias sobre jogos, música, lançamentos e entretenimento digital de forma geral.</p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Links rápidos</h6>
+                  <p>
+                    <a href="#!">Início</a>
+                  </p>
+                  <p>
+                    <a href="#!">Notícias</a>
+                  </p>
+                  <p>
+                    <a href="#!">Promoções</a>
+                  </p>
+                  <p>
+                    <a href="#!">Plataformas</a>
+                  </p>
+                </div>
+                <!-- Grid column -->
+
+                <hr class="w-100 clearfix d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold text-white">Links rápidos</h6>
+                  <p>
+                    <a href="#!">Bacon</a>
+                  </p>
+                  <p>
+                    <a href="#!">Trabalhe conosco</a>
+                  </p>
+                  <p>
+                    <a href="#!">Contato</a>
+                  </p>
+                  <p>
+                    <a href="#!">Ajuda</a>
+                  </p>
+                </div>
+
+                <!-- Grid column -->
+                <hr class="w-100 clearfix d-md-none">
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+                  <h6 class="text-uppercase mb-4 font-weight-bold">Redes Sociais</h6>
+                  <p>
+                    
+                  <p>
+                    <i class="fab fa-facebook-f"> facebook.com/shaqnewscorp</i>
+                  <p>
+                    <i class="fab fa-twitter"> @shaqnewscorp</i>
+                  <p>
+                    <i class="fab fa-instagram"> @shaqnewscorp</i>
+                  <p>
+                    <i class="fab fa-youtube"> youtube.com/shaqnewscorp</i>
+                </div>
+                <!-- Grid column -->
+
+              </div>
+              <!-- Footer links -->
+
+              <hr>
+
+              <!-- Grid row -->
+              <div class="row d-flex align-items-center">
+
+                <!-- Grid column -->
+                <div class="col-md-7 col-lg-8">
+
+                  <!--Copyright-->
+                  <p class="text-center text-md-left">© 2020 Copyright:
+                    <a href="https://mdbootstrap.com/">
+                      <strong> Shaq Corporation</strong>
+                    </a>
+                  </p>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-5 col-lg-4 ml-lg-0">
+                </div>
+                <!-- Grid column -->
+
+              </div>
+              <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+
+          </footer>
+          <!-- Footer -->
+        </footer>
+        <script src="ShaqJS.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+
+
+
+</html>
